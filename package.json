@@ -2,7 +2,7 @@
   "name": "nodeapier",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server/index.js",
   "scripts": {
     "serve": "nodemon"
   },
