@@ -1,6 +1,6 @@
 const express = require('express')
-const config = require('./server.config')
-const routes = require('./http/routes')
+const config = require('./config')
+const routes = require('../http/routes')
 
 const app = express()
 const hostname = config.hostname
