@@ -1,4 +1,4 @@
-const controller = require('./controllers')
+const controller = require('../controllers')
 
 function routes(app) {
   
