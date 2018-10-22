@@ -1,8 +1,7 @@
 const express = require('express')
+const routes = require('./routes')
 
 const app = express()
+routes.init(app)
 
-// Routes
-app.get('/api', (req, res) => res.json({message: 'Welcome to API server'}))
-
-app.listen(8080, () => console.log('Server run on port 8080'))
+app.listen(8000, () => console.log('Server run on port 8000'))
